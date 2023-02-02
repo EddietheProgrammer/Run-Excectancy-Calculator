@@ -1,4 +1,4 @@
-# Run-Excectancy-Calculator
+# Run-Expectancy-Calculator
 
 * This calculator calculates how effective a pitcher in baseball (or in this case softball) is in preventing runs. 
 
