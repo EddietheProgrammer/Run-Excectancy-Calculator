@@ -1,6 +1,6 @@
 # Run-Expectancy-Calculator
 
-* This calculator calculates how effective a pitcher in baseball (or in this case softball) is in preventing runs. 
+* This calculator calculates how effective a pitcher in baseball (or in this case softball) is at preventing runs. 
 
 * For some context, in a given situation say bases empty and no outs, there is a number for the average runs scored in that situation. Once you figure out that number, you subtract it from the next cyclical situation. Once you finish, you add up the values plus any runs the pitcher gives up and that is the Run Expectancy for the pitcher.
 
