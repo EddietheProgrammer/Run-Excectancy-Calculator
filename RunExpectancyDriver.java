@@ -10,7 +10,17 @@ public class RunExpectancyCalculator
 
         Scanner console = new Scanner(System.in);
         DecimalFormat df = new DecimalFormat("00.000");
-
+        
+        /*
+        0: Empty
+        1: Runner on first base
+        2: Runner on second base
+        3: Runner on third base
+        12: Runner on first and second
+        13: Runner on first and third
+        23: Runner on second and third
+        123: Bases loaded
+        */
         int[] runnerLocationIndex = {0, 1, 2, 3, 12, 13, 23, 123};
         System.out.println("\n\n\n\n\nWelcome to the Run Expectancy calculator. Here are your menu options. These numbers represent the location for the runners are on base.");
         System.out.println(Arrays.toString(runnerLocationIndex));
