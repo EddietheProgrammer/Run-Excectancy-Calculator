@@ -75,7 +75,7 @@ public class RunExpectancyCalculator
             System.out.print("How many runs scored? ");
             int runsScored = console.nextInt();
 
-            double newSum = sum + runsScored;
+            double newSum = sum - runsScored;
 
             System.out.println("Here you are sir, the new RE24 is: " + newSum);
        }
